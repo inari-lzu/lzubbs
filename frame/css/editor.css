@@ -1,0 +1,45 @@
+#container{
+    position: fixed;
+    top:40px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    justify-content:center;
+}
+#editor{
+    border-radius:20px;
+    background-color: rgba(232, 142, 175, 0.59);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 560px;
+    justify-content:center;
+}
+#exist{
+    align-content: center;
+    border-radius:15px;
+    background-color: rgba(120, 76, 77, 0.5);
+    margin:10px;
+    margin-top:0;
+    margin-bottom:5px;
+    align-self:flex-end;
+    height: 7%;
+}
+#title{
+    margin: 5px;
+    font-size: 1.6em;
+    width: 97%;
+    height:10%;
+}
+#content{
+    font-size: 1.4em;
+    margin: 5px;
+    width:97%;
+    height: 75%;
+}

@@ -1,0 +1,9 @@
+.posts{
+    z-index: -1;
+    background-color: rgba(241, 189, 208, 0.8);
+    width: 60%;
+    height: max-content;
+    padding: 60px;
+    border-radius: 40px;
+    margin: 40px;
+}
